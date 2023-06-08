@@ -5,7 +5,7 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
     },
     postText: {
-      type: DataTypes.INT,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     username: {
